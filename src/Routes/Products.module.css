@@ -1,0 +1,131 @@
+.mainBg {
+    background-image: url("Images/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: none;
+}
+
+.productsArea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8em;
+}
+
+.viewAllBtn {
+    background-color: #6bb252;
+    color: #fff;
+}
+
+.viewAllBtn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.leftView {
+    background-color: #f1f1f1;
+    padding: 6px 14px;
+    margin-right: 5px;
+    border-radius: 10px;
+} 
+
+.rightView {
+    background-color: #f1f1f1;
+    padding: 6px 14px;
+    border-radius: 10px;
+}
+
+.swiperWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+.roundedCircle {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    transition: 0.6s;
+}
+
+.roundedCircle:hover {
+    transform: scale(1.15);
+}
+
+
+
+.categoryRowTwo {
+    width: 10em;
+}
+
+.viewAllBtn {
+    background-color: #6bb252;
+    color: #fff;
+}
+
+.viewAllBtn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.leftView {
+    background-color: #f1f1f1;
+    padding: 6px 14px;
+    margin-right: 5px;
+    border-radius: 10px;
+} 
+
+.rightView {
+    background-color: #f1f1f1;
+    padding: 6px 14px;
+    border-radius: 10px;
+}
+
+.swiperWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+.roundedCircle {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    transition: 0.6s;
+}
+
+.roundedCircle:hover {
+    transform: scale(1.15);
+}
+
+.cardZero {
+    background-color: #6bb252;
+}
+
+.cardOne {
+    background-color: rgba(54, 65, 39, 1);
+}
+
+.cardTwo {
+    background-color: rgba(249, 95, 9, 1);
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.organic {
+    color: #6bb252;
+}
+
+.shoppingBtn {
+    background-color: #6bb252;
+    color: #fff;
+}
+
+.shoppingBtn:hover {
+    background-color: #75cf54;
+    color: #fff;
+}
+
+
+
+

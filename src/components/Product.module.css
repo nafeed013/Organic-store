@@ -1,0 +1,45 @@
+.col {
+    width: 260px;
+}
+
+.addToCartBtn {
+    background-color: #6bb252;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.addToCartBtn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.titleSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnArea {
+    width: 100%;
+}
+
+.imageArea {
+    height: 225px;
+    width: 225px;
+}
+
+.productImage {
+    height: 100%;
+    width: 100%;
+}
+
+.discountPrice {
+    color: grey;
+}
+
+.icon {
+    margin: -4px 0 0 4px;
+    color: rgb(255, 255, 0);
+}
+
+

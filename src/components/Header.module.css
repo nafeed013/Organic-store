@@ -1,0 +1,33 @@
+.sectionThree {
+    display: flex;
+    gap: 2em;
+    margin-top: 5px;
+}
+
+.searchSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconArea {
+    height: 1.4em;
+    transition: 0.2s;
+}
+
+.iconArea:hover {
+    transform: scale(1.2);
+} 
+
+.icon {
+    font-size: 1.4em;
+    color: black;
+}
+
+.navLink {
+    transition: 0.2s;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+}
+

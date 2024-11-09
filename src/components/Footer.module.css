@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaIcon {
+    font-size: 25px;
+    color: black;
+    transition: 0.4s;
+}
+
+.socialMediaIcon:hover {
+    transform: scale(1.2);
+}
+
+.socialMediaBtn {
+    margin: 8px;
+}
+
+.socialMediaSection {
+    display: flex;
+    justify-content: center;
+}

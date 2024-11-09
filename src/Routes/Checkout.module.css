@@ -1,0 +1,120 @@
+.main {
+    max-width: 1100px;
+    margin: 60px auto;
+}
+  
+  .pageTitle {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+  
+  .checkoutGrid {
+    display: grid;
+    /* Here, 1fr means the first column will take
+       up the remaining space in the grid. */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+  
+    /* Use align-items: start; to prevent the elements
+       in the grid from stretching vertically. */
+    align-items: start;
+  }
+  
+  @media (max-width: 1000px) {
+    .main {
+      max-width: 500px;
+    }
+  
+    .checkoutGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .paymentSummary {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    padding: 18px;
+  }
+  
+  @media (max-width: 1000px) {
+    .paymentSummary {
+      /* grid-row: 1 means this element will be placed into row
+        1 in the grid. (Normally, the row that an element is
+        placed in is determined by the order of the elements in
+        the HTML. grid-row overrides this default ordering). */
+      grid-row: 1;
+      margin-bottom: 12px;
+    }
+  }
+ 
+  .paymentSummaryTitle {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .paymentSummaryRow {
+    display: grid;
+    /* 1fr auto; means the width of the 2nd column will be
+       determined by the elements inside the column (auto).
+       The 1st column will take up the remaining space. */
+    grid-template-columns: 1fr auto;
+  
+    font-size: 15px;
+    margin-bottom: 9px;
+  }
+  
+  .paymentSummaryMoney {
+    text-align: right;
+  }
+  
+  .subtotalRow .paymentSummaryMoney {
+    border-top: 1px solid rgb(222, 222, 222);
+  }
+  
+  .subtotalRow div {
+    padding-top: 9px;
+  }
+  
+  .totalRow {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    font-size: 18px;
+  
+    border-top: 1px solid rgb(222, 222, 222);
+    padding-top: 18px;
+  }
+  
+  .placeOrderButton {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+  
+    margin-top: 11px;
+    margin-bottom: 15px;
+    background-color: #6bb252;
+    border: 1px solid rgb(222, 222, 222);
+    transition: 0.3s;
+  }
+
+  .placeOrderButton:hover {
+    color: #fff;
+    background-color: black;
+  }
+
+  .cartBtn {
+    background-color: #6bb252;
+    color: black;
+    border: 0;
+  }
+
+  .cartBtn:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+  .continueShopping {
+    margin-top: 5em;
+  }

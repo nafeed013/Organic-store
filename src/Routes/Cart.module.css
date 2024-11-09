@@ -1,0 +1,71 @@
+.cartItemContainer{
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    padding: 18px;
+    margin-bottom: 10px;
+}
+
+  
+.cartItemDetailsGrid {
+    display: grid;
+    /* 100px 1fr 1fr; means the 2nd and 3rd column will
+       take up half the remaining space in the grid
+       (they will divide up the remaining space evenly). */
+    grid-template-columns: 1.5fr 1fr;
+  }
+  
+  @media (max-width: 1000px) {
+    .cartItemDetailsGrid {
+      grid-template-columns: 100px 1fr;
+      row-gap: 30px;
+    }
+  }
+
+  .cartItemDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } 
+  
+  .productImage {
+    max-width: 100%;
+    max-height: 120px;
+  
+    /* margin-left: auto;
+       margin-right auto;
+       Is a trick for centering an element horizontally
+       without needing a container. */
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  .productName {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .productPrice {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .productQuantity {
+    display: flex;
+  }
+
+  .quantityLabel {
+    margin-left: 5px;
+  }
+
+  .delete {
+    margin-left: 12px;
+    color: #6bb252;
+    cursor: pointer;
+  }
+
+  .delete:hover {
+    color: red;
+  }
